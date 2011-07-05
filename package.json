@@ -1,0 +1,9 @@
+{
+    "name": "longdesk", 
+    "license": "WTFPL http://sam.zoy.org/wtfpl/", 
+    "author": "Anthony Ricaud <anthony@ricaud.me", 
+    "version": "0.1", 
+    "fullName": "longdesk", 
+    "id": "jid1-KN9CeRzPwYe6Rw", 
+    "description": "A simple add-on that adds a link to the longdesc under images that provides one."
+}
