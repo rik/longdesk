@@ -15,7 +15,9 @@
     
     for (var i=0, il=imgs.length; i < il; i++) {
         var img = imgs[i];
-        if(img.getAttribute("longdesc").toString().length<1) return;
+        if (img.getAttribute("longdesc").toString().length < 1) {
+			return;
+		}
         
         var a = document.createElement('a');
         a.classList.add('longdesc-addon-link');
@@ -27,6 +29,5 @@
         a.style.left = img.offsetLeft + "px";
         
         img.parentNode.insertBefore(a, img.nextSibling);
-        
     }
 })();
